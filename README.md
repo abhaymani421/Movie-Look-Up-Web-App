@@ -25,7 +25,6 @@ A simple React application to search and browse movies using the [OMDb API](http
 
 ![MovieLand Screenshot](public/MovieLand_ScreenShot.png)
 
-*(Make sure this image exists in your repo and is pushed!)*
 
 ---
 
