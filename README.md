@@ -35,7 +35,7 @@ To run this project locally:
 1. **Clone the repo**
 
     ```bash
-    git clone https://github.com/your-username/movie_app.git
+    git clone https://github.com/abhaymani421/Movie-Look-Up-Web-App
     cd movie_app
     ```
 
