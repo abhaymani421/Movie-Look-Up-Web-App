@@ -8,7 +8,10 @@ const MovieCard = ({ movie }) => {
                     <p>{movie.Year}</p>
                 </div>
                 <div>
-                    <img src={movie.Poster !== 'N/A' ? movie.Poster : '/Poster.png'} alt={movie.Title} />
+                    <img src={movie.Poster !== 'N/A' ? movie.Poster : '/Poster.png'} onError={(e) => {
+                        e.target.onerror = null;
+                        e.target.src = "/Poster.png";
+                    }} alt={movie.Title} />
                 </div>
                 <div>
                     <span>{movie.Type}</span>
